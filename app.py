@@ -12,7 +12,7 @@ import base64
 pickle_in = open('gbr.pkl', 'rb')
 gbr = pickle.load(pickle_in)
 
-
+#this lists are created to show all those possible column values to user via UI
 list1 = ['Tier 1', 'Tier 2', 'Tier 3']
 list2 = ['Small', 'Medium', 'High']
 list3 = ['Dairy', 'Soft Drinks', 'Fruits and Vegetables',
